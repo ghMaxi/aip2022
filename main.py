@@ -22,14 +22,14 @@ def check_command_mult(command):
 
 def check_command_sinus(command):
     if command[:4] == 'sin(' and command[-1]==")":
-       return math_requests.make_sinus(float(command[4:-1]))
+        return math_requests.make_sinus(float(command[4:-1]))
     else:
         return None
 
 
 def check_factorial(command):
     if command[-1] == '!':
-       return math_requests.factorial(float(command[:-1]))
+        return math_requests.factorial(float(command[:-1]))
     else:
         return None
 
