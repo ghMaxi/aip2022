@@ -1,8 +1,8 @@
 from tkinter import Tk
+app = Tk()
 
 
 def init(init_function):
-    app = Tk()
     init_function(app)
     app.mainloop()
 
