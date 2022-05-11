@@ -1,0 +1,8 @@
+SCREEN_SIZE = (800, 600)
+FPS = 60
+BASE_RECT = 0, 0, 20, 20
+WHITE = 255, 255, 255
+VIOLET = 255, 0, 255
+YELLOW = 255, 255, 0
+RED = 255, 0, 0
+PATH = "stars.xlsx"
