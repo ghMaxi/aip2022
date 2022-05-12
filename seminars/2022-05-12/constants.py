@@ -1,0 +1,11 @@
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+WHITE = 0
+RED = 1
+COLORS = ((255, 255, 255), (255, 0, 0))
+BASE_SQUARE_SIZE = 20
+EXCEL_PATH = 'data.xlsx'
+X_KEY = 'x'
+Y_KEY = 'y'
+COLOR_KEY = 'color'
